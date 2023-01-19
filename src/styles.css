@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --gray: #1A1B1E;
+  --white: #FFFFFF;
+  --blue: #2D7CC0;
+  --neonBlue: #ccf0ff;
+
+  --backgroundMain: #313335;
+  --backgroundLighter: #3C3F41;
+  --backgroundDarker: #2B2B2B;
+
+  --borders: #555555;
+}
+
+html body{
+  background-color: var(--backgroundMain);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--blue);
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.textLeft{
+  text-align: left !important;
+}
+
+.textCenter{
+  text-align: center !important;
+}
+
+.justifyText{
+  text-align: justify !important;
+}
+
+.biggerFontSize{
+  font-size:x-large;
+}
+
+.evenColor {
+  background-color: var(--backgroundLighter);
+}
+.oddColor {
+  background-color: var(--backgroundDarker);
+}
+
+hr{
+  margin: 0;
+  background-color: var(--neonBlue);
+  height: 2px;
+  opacity: 1;
+}
+
+
