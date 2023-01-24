@@ -12,7 +12,7 @@
 
 .nav-link:hover{
   color: var(--neonBlue);
-  background-color: var(--backgroundLighter);
+
 }
 
 .logoFixed{
@@ -21,14 +21,5 @@
   position: fixed;
   margin-top: 5px;
   margin-left: 5px;
-  cursor: pointer;
-}
-
-.logoPlataforma14{
-
-  width: 45px;
-  height: 45px;
-  margin-top: 5px;
-  margin-left: -10px;
   cursor: pointer;
 }
