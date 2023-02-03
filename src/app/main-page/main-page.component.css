@@ -63,3 +63,16 @@
   height: 25px;
   margin-top: -3px;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
