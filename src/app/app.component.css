@@ -12,7 +12,10 @@
 
 .nav-link:hover{
   color: var(--neonBlue);
+}
 
+.nav-link:focus {
+  color: var(--neonBlue);
 }
 
 .logoFixed{
@@ -23,4 +26,5 @@
   margin-left: 5px;
   cursor: pointer;
 }
+
 
