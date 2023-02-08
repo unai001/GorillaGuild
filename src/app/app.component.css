@@ -2,12 +2,13 @@
   background-color: var(--blue);
   border-bottom: 1px solid var(--borders);
   position: static;
-  height: 55px;
+  height: auto;
 }
 
 .nav-link{
   color: var(--gray);
   line-height: 38px;
+  font-size: large;
 }
 
 .nav-link:hover{
@@ -27,4 +28,9 @@
   cursor: pointer;
 }
 
+@media (max-width: 440px) {
+  .logoFixed{
+    display: none;
+  }
+}
 
