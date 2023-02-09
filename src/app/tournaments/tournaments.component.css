@@ -16,4 +16,29 @@
   border-radius: 3px;
 }
 
+@media screen and (max-width: 750px) {
+  .containerTorneo {
+    display: flex;
+    flex-direction: column;
+  }
+  .containerTorneo div:first-child {
+    order: 1;
+  }
+
+  .containerInfo{
+    text-align: center!important;
+  }
+
+  .infoTorneo{
+    text-align: center!important;
+  }
+
+  .torneoImagen{
+    margin-top: 1rem;
+  }
+
+  .container-lg{
+    margin-top: 6rem;
+  }
+}
 
