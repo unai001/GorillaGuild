@@ -52,10 +52,12 @@ a{
 .linkIcon {
   width: 30px;
   height: 30px;
+  transition: 0.3s;
 }
 
 .linkIcon:hover {
-  filter: invert();
+  transform: scale(1.3);
+  transition: 0.3s;
 }
 
 footer {
@@ -68,7 +70,9 @@ footer {
   footer {
     position: relative;
   }
-
+  .colMarginBotton{
+    margin-bottom: 20px;
+  }
 }
 
 a:link {
